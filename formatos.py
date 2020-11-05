@@ -27,14 +27,14 @@
 #Agregar un nuevo registro a una tabla
 #def addNewClient():
 #    print("Añadirás un nuevo cliente")
-#    var1 = input("Nombre: ")
-#    var2 = input("Apellido: ")
-#    var3 = input("Segundo apellido: ")
-#    var4 = input("Número de teléfono")
-#    var5 = input("Idioma: ")
-#    var6 = input("Correo electrónico: ")
-#    var7 = input("Contraseña: ")
-#    var8 = input("Dirección: ")
+#    var1 = input("Campo1: ")
+#    var2 = input("Campo2: ")
+#    var3 = input("Campo3: ")
+#    var4 = input("Campo4")
+#    var5 = input("Campo5: ")
+#    var6 = input("Campo6: ")
+#    var7 = input("Campo7: ")
+#    var8 = input("Campo8: ")
 
 #    try:
 #        with connection.cursor() as cursor:
