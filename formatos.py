@@ -2,7 +2,7 @@
 #connection = pymysql.connect(
 #    host = "localhost",
 #    user = "root",
-#    passwd = "Shadow.ale15",
+#    passwd = "tuContraseña",
 #    db= "ikea",
 #    cursorclass = pymysql.cursors.DictCursor,
 #)
