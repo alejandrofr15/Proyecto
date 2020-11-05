@@ -4,7 +4,7 @@ import pymysql
 connection = pymysql.connect(
     host = "localhost",
     user = "root",
-#    passwd = "TuContraseña",
+    passwd = "12345",
     db= "ikea",
     cursorclass = pymysql.cursors.DictCursor,
 )
@@ -25,7 +25,7 @@ def getAllUsuarios():
         
 
 def addUsuario():
-    print("Añadirás un nuevo cliente")
+    print("Añadirás un nuevo usuario")
     name = input("Nombre: ")
     apellido = input("Apellido: ")
     segundoApellido = input("Segundo apellido: ")
