@@ -11,7 +11,7 @@ connection = pymysql.connect(
 )
 
 #Tabla Países
-        #Obtener todos los registros de una tabla
+        #Obtener todos Países
 def getAllPaises():
     result = {}
     try:
@@ -28,7 +28,7 @@ def getAllPaises():
         print(table)
 
 
-        #Agregar un nuevo registro a una tabla
+        #Agregar un nuevo País
 def addNewPais():
     print("Añadirás un nuevo país a la tabla Paises")
     nombre = input("Nombre País: ")
@@ -44,7 +44,7 @@ def addNewPais():
         getAllPaises()
 
 
-        #Borrar un registro
+        #Borrar un País
 def deletePais():
     result = []
     print("Borrarás un registro de la tabla Países")
@@ -78,7 +78,7 @@ def deletePais():
         pass
 
 
-        #Actualizar un registro
+        #Actualizar un País
 def updatePais():
     print("Modificarás un registro de la tabla Países")
     getAllPaises()
@@ -134,6 +134,7 @@ def getAllCiudades():
             table.add_row([ciudad["idCiudades"], ciudad["nombre"], ciudad["idPaises"]])
         print(table)
 
+        
         #Ingresar una nueva ciudad
 def addNewCiudad():
     print("Añadirás una nueva ciudad a la tabla Ciudades")
@@ -185,6 +186,7 @@ def deleteCiudad():
     finally:
         pass
 
+    
         #Actualizar una ciudad
 def updateCiudad():
     print("Modificarás un registro de la tabla Ciudades")
