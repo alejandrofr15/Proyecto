@@ -397,11 +397,4 @@ def BuscarProducto():
                 if dec == 1:
                     BuscarProducto()
                 else:
-                     break
-
-
-Operar()
-
-
-
-        
+                     break        
